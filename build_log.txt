@@ -1,0 +1,94 @@
+*  Executing task: platformio run 
+
+Processing esp32-c6-devkitc-1 (platform: https://github.com/pioarduino/platform-espressif32/releases/download/stable/platform-espressif32.zip; board: esp32-c6-devkitc-1; framework: espidf)
+--------------------------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32-c6-devkitc-1.html
+PLATFORM: Espressif 32 (54.3.20) > Espressif ESP32-C6-DevKitC-1
+HARDWARE: ESP32C6 160MHz, 320KB RAM, 8MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-builtin, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-espidf @ 3.50401.0 (5.4.1) 
+ - tool-cmake @ 3.30.2 
+ - tool-esptoolpy @ 4.8.9 
+ - tool-mklittlefs @ 3.2.0 
+ - tool-ninja @ 1.7.1 
+ - tool-riscv32-esp-elf-gdb @ 14.2.0+20240403 
+ - tool-xtensa-esp-elf-gdb @ 14.2.0+20240403 
+ - toolchain-riscv32-esp @ 14.2.0+20241119
+Reading CMake configuration...
+Warning! Flash memory size mismatch detected. Expected 8MB, found 2MB!
+Please select a proper value in your `sdkconfig.defaults` or via the `menuconfig` target!
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 0 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/src/esp_openthread.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/src/esp_openthread_cli.c.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/src/esp_openthread_lock.c.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/src/esp_openthread_lwip_netif.c.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/src/esp_openthread_netif_glue.c.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/src/esp_openthread_platform.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/src/esp_openthread_task_queue.c.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/src/port/esp_openthread_alarm.c.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/src/port/esp_openthread_logging.c.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/src/port/esp_openthread_memory.c.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/src/port/esp_openthread_misc.c.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/src/port/esp_openthread_radio.c.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/src/port/esp_openthread_settings.c.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/src/port/esp_openthread_spi_slave.c.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/src/port/esp_openthread_state.c.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/src/port/esp_openthread_uart.c.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/src/port/esp_openthread_udp.c.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/examples/platforms/utils/debug_uart.c.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/examples/platforms/utils/link_metrics.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/examples/platforms/utils/mac_frame.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/examples/platforms/utils/otns_utils.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/examples/platforms/utils/settings_ram.c.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/examples/platforms/utils/uart_rtt.c.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/backbone_router_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/backbone_router_ftd_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/ble_secure_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/border_agent_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/border_router_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/border_routing_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/channel_manager_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/channel_monitor_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/child_supervision_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/coap_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/coap_secure_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/commissioner_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/crypto_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/dataset_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/dataset_ftd_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/dataset_updater_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/diags_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/dns_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/dns_server_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/error_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/heap_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/history_tracker_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/icmp6_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/instance_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/ip6_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/jam_detection_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/joiner_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/link_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/link_metrics_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/link_raw_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/logging_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/mdns_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/mesh_diag_api.cpp.o
+Compiling .pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/message_api.cpp.o
+/home/mc/.platformio/packages/framework-espidf/components/openthread/openthread/src/core/api/instance_api.cpp: In function 'const char* otGetVersionString()':
+<command-line>: error: expected ',' or ';' before numeric constant
+/home/mc/.platformio/packages/framework-espidf/components/openthread/openthread/src/core/api/instance_api.cpp:175:47: note: in expansion of macro 'OPENTHREAD_BUILD_DATETIME'
+  175 |                                          "; " OPENTHREAD_BUILD_DATETIME
+      |                                               ^~~~~~~~~~~~~~~~~~~~~~~~~
+*** [.pio/build/esp32-c6-devkitc-1/openthread/openthread/src/core/api/instance_api.cpp.o] Error 1
+================================== [FAILED] Took 12.63 seconds ==================================
+
+ *  The terminal process "platformio 'run'" terminated with exit code: 1. 
+ *  Terminal will be reused by tasks, press any key to close it. 
